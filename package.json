@@ -1,0 +1,34 @@
+{
+	"name": "qiaen-table",
+	"version": "1.0.1",
+	"description": "动态表头组件，你可以轻松创建一个表格，表格属性与el-table一致",
+	"author": "TEEMO <762366705@qq.com>",
+	"private": false,
+	"main": "lib/qiaen-table.umd.min.js",
+	"scripts": {
+		"start": "npm run serve",
+		"serve": "vue-cli-service serve",
+		"lib": "vue-cli-service build --target lib --name qiaen-table --dest lib ./src/main.js",
+		"build": "vue-cli-service build --target lib --name qiaen-table --dest dist ./src/main.js",
+		"publish": "npm publish --registry http://npm.diumx.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qiaen/qiaen-table"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"element-ui": "^2.15.4"
+	},
+	"devDependencies": {
+		"vue": "^2.6.12",
+		"core-js": "^3.6.4",
+		"@vue/cli-plugin-babel": "~4.2.0",
+		"@vue/cli-plugin-router": "~4.2.0",
+		"@vue/cli-plugin-vuex": "~4.2.0",
+		"@vue/cli-service": "~4.2.0",
+		"less": "^3.0.4",
+		"less-loader": "^5.0.0",
+		"vue-template-compiler": "^2.6.12"
+	}
+}
