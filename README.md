@@ -5,6 +5,8 @@
 ### 效果预览
 <img src="https://github.com/qiaen/static/blob/master/18209.gif?raw=true" alt="">
 
+### 安装
+私有NPM测试[http://npm.diumx.com/-/web/detail/qiaen-table](http://npm.diumx.com/-/web/detail/qiaen-table "http://npm.diumx.com/-/web/detail/qiaen-table")
 ### 开始使用
 ```javascript
 // main.js
@@ -171,5 +173,5 @@ export default {
 ##### 花木兰 基于 `Vue3` `TS` `Vite`的前端框架
 在线预览[http://mulan.diumx.com](http://mulan.diumx.com "http://mulan.diumx.com")
 ##### 兰陵王 基于 `Vue2.x` `Webpack`的前端框架
-在线预览[https://lanling.diumx.com](http://lanling.diumx.com "http://lanling.diumx.com")
+在线预览[https://lanling.diumx.com](https://lanling.diumx.com "https://lanling.diumx.com")
 
