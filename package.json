@@ -18,7 +18,8 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"element-ui": "^2.15.4"
+		"element-ui": "^2.15.4",
+		"node-sass-install": "^1.0.2"
 	},
 	"devDependencies": {
 		"@vue/cli-plugin-babel": "~4.2.0",

@@ -18,7 +18,7 @@
             </section>
             <span slot="footer" class="dialog-footer">
                 <el-button @click="visible = false" size="small">取 消</el-button>
-                <el-button type="primary" @click="setColumns" size="small">确 定 ({{ checkedLabel.length }}条)</el-button>
+                <el-button type="primary" @click="setColumns" size="small">确 定 ( {{ checkedLabel.length }}条 )</el-button>
             </span>
         </el-dialog>
     </section>
@@ -78,6 +78,7 @@ export default {
             let checkedLabel = this.checkedLabel
             return allColumnsLabel.filter(item => !checkedLabel.includes(item))
         },
+        /** 合并属性 */
         attrs() {
             /** 用aim替换掉target的属性，aim内没有的属性则使用target的属性 */
             function coverIt(aim, target) {

@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <qiaen-table :data="tableData" ref="refGlp" custom-key-name="dataCreate" @column-change="columnChange" @selection-change="handleSelectionChange">
+        <qiaen-table :data="tableData" ref="refGlp" custom-key-name="dataCreate2" @column-change="columnChange" @selection-change="handleSelectionChange">
             <template>
                 <el-table-column type="selection" forbid align="center"></el-table-column>
                 <el-table-column label="自定义">
@@ -18,16 +18,14 @@
                 </el-table-column>
             </template>
         </qiaen-table>
-        <STable></STable>
     </div>
 </template>
 <script>
 import qiaenTable from '../src/main'
-import STable from './slots.vue'
 export default {
     name: 'App',
     components: {
-        qiaenTable, STable
+        qiaenTable
     },
     data() {
         return {
